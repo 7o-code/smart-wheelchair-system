@@ -1,4 +1,4 @@
-# Smart Wheelchair System 🐙
+# Smart Wheelchair System 🦼
 
 An accessible, AI-driven assistive mobility platform utilizing a **Master/Slave (Brain/Reflex)** architecture. This repository contains the full software stack for the Smart Wheelchair Graduation Project.
 

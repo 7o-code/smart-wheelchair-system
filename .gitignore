@@ -1,0 +1,27 @@
+# ROS 2
+install/
+build/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# Embedded / PlatformIO / Arduino
+.pio/
+.vscode/
+*.bin
+*.hex
+*.elf
+*.o
+*.d
+fp-info-cache
+
+# OS
+.DS_Store
+Thumbs.db

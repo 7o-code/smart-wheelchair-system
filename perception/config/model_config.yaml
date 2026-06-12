@@ -1,0 +1,40 @@
+calibration:
+  gaze_offset_x: -0.4333764122683046
+  gaze_offset_y: 0.0
+  target_count: 90
+  auto_calibrate: true
+  auto_calibrate_always: true
+  auto_calibrate_seconds: 3.0
+  auto_calibrate_save: true
+features:
+  use_blink: true
+  use_head_pose: true
+  invert_gaze_x: true
+  gaze_gain: 1.5
+mediapipe:
+  max_num_faces: 1
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  refine_landmarks: true
+model:
+  classes:
+  - FORWARD
+  - LEFT
+  - RIGHT
+  - STOP
+  force_rule: true
+  use_tflite: false
+  model_path: data/processed/eye_gaze_model.pkl
+  scaler_path: data/processed/scaler.pkl
+  type: mlp
+system:
+  camera_index: 0
+  command_cooldown: 0.5
+  fps: 30
+  headless: false
+  frame_height: 480
+  frame_width: 640
+thresholds:
+  blink_ratio: 0.15
+  gaze_sensitivity: 0.12
+  deadzone: 0.05

@@ -1,0 +1,8 @@
+opencv-python-headless
+mediapipe-rpi4; platform_machine == "aarch64"
+mediapipe; platform_machine != "aarch64"
+numpy
+scikit-learn==1.5.2
+pyyaml
+joblib
+tflite-runtime; platform_machine == "aarch64"

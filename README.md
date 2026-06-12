@@ -1,6 +1,5 @@
 # Smart Wheelchair System 🦼
-# WISE 🧠 - Wheelchair with Intelligent Sight and
-Eye-control
+# WISE 🧠 - Wheelchair with Intelligent Sight and Eye-control
 
 An accessible, AI-driven assistive mobility platform utilizing a **Master/Slave (Brain/Reflex)** architecture. This repository contains the full software stack for the Smart Wheelchair Graduation Project.
 
